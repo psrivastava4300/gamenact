@@ -1,0 +1,21 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    
+}
+
+.nav {
+    margin-top: 10px;
+    margin-left: 40vw;
+    position: absolute;
+    width: 60vw;
+    justify-items: stretch;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+}

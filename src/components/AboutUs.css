@@ -1,0 +1,35 @@
+.txt{
+    margin-top: 5vh;
+    background-color: beige;
+    opacity: 0.85;
+    overflow: hidden;
+    text-align: justify;
+    margin-left: 2vw;
+}
+
+.heading {
+    border-width: 0.1vw;
+    width:80%;
+    height: 10vh;
+    background-color: cornsilk;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    opacity: 0.7;
+    margin-top: 5vh;
+    margin-left: 10%;
+    padding-top: 2.5vh;
+    overflow: hidden;
+}
+
+.about_img {
+    height: 100%;
+    max-width:max-content;
+    padding: 10px;
+}
+
+.bg_img {
+    background-image: url(https://i.dlpng.com/static/png/6994442_preview.png);
+    background-size:cover ;
+    height:100% ;
+}
