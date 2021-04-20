@@ -9,14 +9,14 @@ function About() {
                 <h2>ABOUT US </h2>
             </div>
             
-            <div >
+            <div>
                 <Row>
                     <Col lg= {6} style={{color: 'black'}}>
                         <div className='txt'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, sodales a consequat et, volutpat ac mi. Nunc sit amet rhoncus elit. Aenean fringilla a dolor eu tincidunt. Nulla dignissim gravida lectus vel sodales. Vivamus laoreet arcu et cursus efficitur. Phasellus fringilla consectetur lacinia. Vivamus maximus elit sed metus volutpat, sit amet vestibulum lectus laoreet. Aliquam sed magna lobortis, varius erat vel, consectetur sapien. Vivamus sagittis maximus nulla at maximus. Donec ac ipsum ligula. Donec ultrices tortor et lorem dapibus, vitae gravida lacus malesuada. Cras mollis diam eget nisl scelerisque, sit amet mattis quam dictum. Praesent eget aliquet neque.
                         </div>
                     </Col>
-                    <Col lg={6} >
+                    <Col lg={5} >
                         <Carousel>
                             <Carousel.Item>
                                 <div className="about_img">

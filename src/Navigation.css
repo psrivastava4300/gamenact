@@ -1,7 +1,6 @@
 .navbar {
     position: fixed;
     display: flex;
-    
 }
 
 .nav {
@@ -18,4 +17,11 @@
     padding: 10px;
     text-decoration: none;
     font-family: 'Gugi', cursive;
+}
+
+.container{
+    height: auto;
+    width: auto ;
+    max-height: 40px;
+    max-width: 250px;
 }
