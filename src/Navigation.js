@@ -8,14 +8,14 @@ const Navigation = () =>{
       <div>
           <Row >
               <Navbar className='navbar justify-content-between' bg='dark' expand='lg' variant='dark' >
-                <Col lg={3} >
+                <Col lg={5} >
                   <Navbar.Brand href='#home'>
                     <div className='container'>
                       <img src={Logo} alt='logo'/>
                     </div>
                   </Navbar.Brand>
                 </Col>
-                <Col lg={9}>
+                <Col  className='wid'>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

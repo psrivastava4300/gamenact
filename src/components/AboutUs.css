@@ -1,5 +1,5 @@
 *{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .txt{
     margin-top: 5vh;
@@ -27,14 +27,11 @@
 }
 
 .about_img {
-    height: 100%;
-    width: fit-content ;
-    padding: 10px;
-    margin:5vh;
+    
 }
 
 .bg_img {
-    background-image: url(https://i.dlpng.com/static/png/6994442_preview.png);
+    background-image: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     background-size:cover ;
     background-position-y: 100%;
     height:fit-content  ;
@@ -43,3 +40,7 @@
     overflow: hidden;
 }
 
+.about_img img{
+    width: 100vw;
+    height:100vh;
+}

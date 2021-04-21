@@ -16,11 +16,11 @@ function About() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, sodales a consequat et, volutpat ac mi. Nunc sit amet rhoncus elit. Aenean fringilla a dolor eu tincidunt. Nulla dignissim gravida lectus vel sodales. Vivamus laoreet arcu et cursus efficitur. Phasellus fringilla consectetur lacinia. Vivamus maximus elit sed metus volutpat, sit amet vestibulum lectus laoreet. Aliquam sed magna lobortis, varius erat vel, consectetur sapien. Vivamus sagittis maximus nulla at maximus. Donec ac ipsum ligula. Donec ultrices tortor et lorem dapibus, vitae gravida lacus malesuada. Cras mollis diam eget nisl scelerisque, sit amet mattis quam dictum. Praesent eget aliquet neque.
                         </div>
                     </Col>
-                    <Col lg={5} >
+                    <Col lg={6} >
                         <Carousel>
                             <Carousel.Item>
                                 <div className="about_img">
-                                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GFS5sbybBw9U2cbkuRCua28iV_CbgCNl8w&usqp=CAU' alt="img" />
+                                <img src='https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt="img" />
                                 </div>
                             </Carousel.Item>
                         </Carousel>

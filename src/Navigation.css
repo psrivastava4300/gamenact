@@ -1,6 +1,7 @@
 .navbar {
     position: fixed;
     display: flex;
+    width:100%;
 }
 
 .nav {
@@ -22,6 +23,19 @@
 .container{
     height: auto;
     width: auto ;
-    max-height: 40px;
-    max-width: 250px;
+    max-height: auto;
+    max-width: auto;
+}
+
+.container img{
+    width: 150px;
+    height:80px;
+    overflow:hidden;
+}
+.wid{
+    width:100%;
+}
+
+.mr-auto{
+    transform: translate(100%,0%);
 }
