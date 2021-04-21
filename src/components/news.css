@@ -1,22 +1,33 @@
-.blog_img{
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-    transition: all 0.5s;
+* {
+  overflow-x: hidden;
+}
+.blog_img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  transition: all 0.5s;
 }
 
-.carousel {
-    width:50vw;
-    height:50vh;
-    margin: auto;
-  }
+.containers {
+  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300");
+  background-size: cover;
+  background-position-y: 100%;
+  height: fit-content;
+  width: 100vw;
+  padding-bottom: 8vh;
+  overflow: hidden;
+}
 
-.containers{
-    background-image: url('https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300');
-    background-size:cover ;
-    background-position-y: 100%;
-    height:fit-content  ;
-    width:100vw;
-    padding-bottom: 8vh;
-    overflow: hidden;
-}  
+.carousel_main {
+  height: 100vh;
+  padding: 1em;
+  width: 100%;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+}
+
+.carousel_main .carousel {
+  width: 100%;
+  height: 96.5vh;
+}
