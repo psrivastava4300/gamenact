@@ -45,6 +45,9 @@ Primary Color: #E48632;
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
 /* @font-face {
     font-family: 'Anurati';
     src: url('../fonts/Anurati-Regular.otf');
@@ -99,7 +102,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font-size: 2.25rem; /* 36px */
-    font-family:  'Press Start 2P', cursive;
+    font-family: 'Nova Round', cursive;
+    font-weight: 800;
     letter-spacing: 5px;
 } 
 h2 {
@@ -291,16 +295,27 @@ button {
 }
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
+.container{
+    position:relative;
+ 
+}
 #logo {
-    font-family: Anurati, sans-serif;
     font-size: 1.75rem; /* 28px */;
     letter-spacing: 5px;
+}
+#logo img{
+    position:absolute;
+    top: -45px;
+    left:0px;
+    /* border: #fff 2px solid; */
 }
 .navbar-dark {
     background-color: rgba(0,0,0,0);
     border: 1px solid rgba(0,0,0,0);
     z-index: 900;
     transition: 0.3s;
+    position:inherit;
+    height: 130px;
 }
 .scrolled {
     background-color: rgba(0,0,0,0.8); /* navbar background gradient */
@@ -308,9 +323,14 @@ button {
 }
 .nav-link {
     font-size: 1.125rem;
+    font-family: 'Nova Square', cursive; 
     font-weight: 500;
     margin-top: 5px;
     transition: 0.2s;
+
+}
+.nav-item{
+    padding-right: 15px;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #FFF;
