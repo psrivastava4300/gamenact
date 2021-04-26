@@ -44,26 +44,30 @@ Primary Color: #E48632;
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+/* @font-face {
     font-family: 'Anurati';
     src: url('../fonts/Anurati-Regular.otf');
-}
+} */
 
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
-    color: #E48632;
+    color: red;
 }
 /* -Link Styling- */
 a {
-    color: #F39C12;
+    color: red;
     font-family: Raleway, sans-serif;
 	text-decoration: none;
 }
-a:visited {
+/* a:visited {
     color: #222;
     text-decoration: none;
-}
+} */
 a:hover {
     color: #E48632;
 	text-decoration: underline;
@@ -98,7 +102,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font-size: 2.25rem; /* 36px */
-    font-family: Anurati, sans-serif;
+    font-family: 'Nova Round', cursive;
+    font-weight: 800;
     letter-spacing: 5px;
 } 
 h2 {
@@ -170,7 +175,7 @@ ul {
 hr {
     width: 100%;
     height: 2px;
-    background: #E48632;
+    background: #ccc;
     margin: 20px 0;
     border: none;
 }
@@ -181,7 +186,7 @@ hr {
 }
 .short-hr-left::after {
     border-top: 2px solid;
-    border-color: #E48632;
+    border-color: red;
     content: "";
     display: block;
     height: 1px;
@@ -190,7 +195,7 @@ hr {
 }
 .short-hr-center::after {
     border-top: 2px solid;
-    border-color: #E48632;
+    border-color: red;
     content: "";
     display: block;
     height: 1px;
@@ -224,7 +229,7 @@ button {
     outline: none !important;
 }
 .button {
-	background: #E48632;
+	background: red;
     border: none;
     border-radius: 2px;
     color: #FFF;
@@ -262,7 +267,7 @@ button {
     position: relative;
     color: #FFF;
     top: 43%;
-    font-family: Anurati, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     letter-spacing: 5px;
 }
 #progress {
@@ -290,16 +295,27 @@ button {
 }
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
+.container{
+    position:relative;
+ 
+}
 #logo {
-    font-family: Anurati, sans-serif;
     font-size: 1.75rem; /* 28px */;
     letter-spacing: 5px;
+}
+#logo img{
+    position:absolute;
+    top: -45px;
+    left:0px;
+    /* border: #fff 2px solid; */
 }
 .navbar-dark {
     background-color: rgba(0,0,0,0);
     border: 1px solid rgba(0,0,0,0);
     z-index: 900;
     transition: 0.3s;
+    position:inherit;
+    height: 130px;
 }
 .scrolled {
     background-color: rgba(0,0,0,0.8); /* navbar background gradient */
@@ -307,21 +323,26 @@ button {
 }
 .nav-link {
     font-size: 1.125rem;
+    font-family: 'Nova Square', cursive; 
     font-weight: 500;
     margin-top: 5px;
     transition: 0.2s;
+
+}
+.nav-item{
+    padding-right: 15px;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #FFF;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #E48632;
+    color: rgb(247, 150, 115);
 }
 .navbar-dark .navbar-nav .nav-link:active {
-    color: #E48632;
+    color: rgb(247, 150, 115);
 }
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #E48632;
+    color: rgb(247, 150, 115);
 }
 .navbar-toggler {
     border: none;
@@ -408,7 +429,7 @@ button {
 .game-tags {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px;
-    border-left: 2px solid #E48632;
+    border-left: 2px solid red;
 }
 .game-tags li {
     display: inline;
@@ -694,7 +715,7 @@ button {
 .job-card {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    border-left: 2px solid #E48632;
+    border-left: 2px solid red;
     padding: 25px 35px;
     margin: 10px 0;
 }
@@ -787,7 +808,7 @@ button {
     width: 100%;
     color: #FFF;
     background: none;
-    border-bottom: 2px solid #E48632 !important;
+    border-bottom: 2px solid red !important;
     border-left: none !important;
     border-right: none !important;
     border-top: none !important;
@@ -797,7 +818,7 @@ button {
     width: 100%;
     color: #FFF;
     background: none;
-    border-bottom: 2px solid #E48632 !important;
+    border-bottom: 2px solid red !important;
     border-left: none !important;
     border-right: none !important;
     border-top: none !important;
@@ -819,7 +840,7 @@ button {
     margin-top: 25px;
 }
 #contact ul li i {
-    color: #E48632;
+    color: 	rgb(247, 150, 115);
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px; 
 }
@@ -841,7 +862,7 @@ button {
     min-height: 70px;
     height: auto;
     background: #070707;
-    border-top: 2px solid #E48632;
+    border-top: 2px solid red;
     padding: 20px 0 0 0;
 }
 .social-links {
