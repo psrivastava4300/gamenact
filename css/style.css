@@ -314,7 +314,8 @@ button {
     border: 1px solid black;
     z-index: 900;
     transition: 0.3s;
-    position:inherit;
+    /* position:inherit; */
+    position: fixed;
     height: 130px;
 }
 .scrolled {
@@ -416,7 +417,7 @@ button {
     justify-self: center;
 }
 .hero-caption h1 {
-    font-weight: 300;
+    font-weight: 600;
     font-size: 3rem;
     font-family: Raleway, sans-serif;
     width: 85%;
