@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
-header{
-    background-color: black;
-    z-index:-1;
-}
+
+
 .container{
     position:relative;
- 
 }
+
 #logo {
     font-size: 1.75rem; /* 28px */;
     letter-spacing: 5px;
@@ -19,11 +17,11 @@ header{
     /* border: #fff 2px solid; */
 }
 .navbar-dark {
-    background-color: rgba(0,0,0,0);
-    border: 1px solid rgba(0,0,0,0);
+    background-color: black;
+    border: 1px solid black;
     z-index: 900;
     transition: 0.3s;
-    position:inherit;
+    position: fixed;
     height: 130px;
 }
 .scrolled {
@@ -45,13 +43,13 @@ header{
     color: #FFF;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(247, 150, 115);
+    color: red;
 }
 .navbar-dark .navbar-nav .nav-link:active {
-    color: rgb(247, 150, 115);
+    color: red;
 }
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgb(247, 150, 115);
+    color: red;
 }
 .navbar-toggler {
     border: none;
@@ -151,13 +149,13 @@ header{
 /* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
 @media (max-width : 991px) {
     .nav-item > a::first-letter {
-    color: #E48632;
+    color: red;
     }
     .navbar-dark {
-        background-color: rgba(0,0,0,0.4); /* navbar background gradient */
+        background-color: black; /* navbar background gradient */
     }
     .scrolled {
-        background-color: rgba(0,0,0,0.8); /* navbar background gradient */
+        background-color: black; /* navbar background gradient */
     }
     #footer {
         text-align: center;

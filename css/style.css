@@ -911,10 +911,12 @@ button {
     color: red;
     }
     .navbar-dark {
-        background-color: rgba(0,0,0,0.4); /* navbar background gradient */
+        /* background-color: rgba(0,0,0,0.4); navbar background gradient */
+        background-color: black;
     }
     .scrolled {
-        background-color: rgba(0,0,0,0.8); /* navbar background gradient */
+        /* background-color: rgba(0,0,0,0.8); navbar background gradient */
+        background-color: black;
     }
     #footer {
         text-align: center;
