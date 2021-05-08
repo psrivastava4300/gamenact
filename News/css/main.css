@@ -1,0 +1,110 @@
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Poppins-Regular, sans-serif;
+  position: relative;
+}
+
+.news-container {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-width: 850px;
+  position: absolute;
+  top: 135px;
+  
+  /* margin-left: 250px; */
+}
+
+.news-container img {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.news-card {
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+.txt1 {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.txt2 {
+  font-family: Poppins-Regular;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.bg1 {background-color: #3b5998}
+.bg2 {background-color: #1da1f2}
+.bg3 {background-color: #ea4335}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////
+/* [ Responsive ] */
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} 
