@@ -190,7 +190,8 @@ iframe {
 }
 .bg-login::after{
   /* background: linear-gradient(-250deg, red, rgb(24, 24, 201)); */
-  background-image: url('../images/carousel2.jpg');
+  /* background-image: url('../images/carousel2.jpg'); */
+  background-image: linear-gradient(180deg, red, rgb(21, 21, 161));
   position:absolute;
   top:0px;
   left:0px;
