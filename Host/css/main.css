@@ -25,7 +25,8 @@ body, html {
   margin-right: 0;
   padding: 20px;
   /* background-color: rgb(88, 86, 86); */
-  background-image: linear-gradient(250deg, red, rgb(21, 21, 161));
+  background-color: #111;
+  /* background-image: linear-gradient(250deg, red, rgb(21, 21, 161)); */
   color: #fff;
   
 }
@@ -59,7 +60,7 @@ body, html {
   font-family: "Nova Square", cursive;
   width: 250px;
   border-radius: 5%;
-  border: grey groove 8px;
+  border: white 2px solid;
   background-color: #000;
   color: #fff;
 
