@@ -21,7 +21,7 @@
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
+  font-family: Poppins-SemiBold; 
   src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 }
 
@@ -49,16 +49,24 @@ body {
 }
 
 .main {
-  position: relative;   
+  position: relative;
+  background-color: #111;
+}
+
+html{
+  overflow:hidden;
+
 }
 
 .news-container {
   background-color: #111;
+  background-size: 100vw;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   min-width: 850px;
   position: absolute;
+
   top: 135px; 
   border: white 1px solid;
   margin: auto;
@@ -78,11 +86,45 @@ body {
   height: 20vh;
   margin: 0 auto;
   margin-right: 2rem;
+
+  top: 135px;
+  width:auto;
+  height:auto;
+  margin-left: 8vw;
+  /* margin-left: 250px; */
 }
 
+.news-card {
+  margin-top:2.5vw;
+  padding-bottom: 2.5vw;
+}
 
+.news-card img{
+  height: 20vw;
+  width:30vw;
 
+}
 
+.abc{
+  display:flex;
+  flex-direction: row;
+}
+
+.txt{
+  margin-left: 10vw;
+}
+
+.txt :hover{
+  text-decoration: none;
+}
+
+h3, h6{
+  margin-top: 1.5vw;
+}
+.btn{
+  margin-top: 3.5vw;
+
+}
 
 
 
