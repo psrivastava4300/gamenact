@@ -37,9 +37,19 @@
 	box-sizing: border-box;
 }
 
-body, html {
+html {
+  overflow-x: hidden;
+}
+
+body {
+
 	font-family: Poppins-Regular, sans-serif;
-  position: relative;
+  background-color: #111;
+  
+}
+
+.main {
+  position: relative;   
 }
 
 .news-container {
@@ -49,19 +59,27 @@ body, html {
   padding: 1rem;
   min-width: 850px;
   position: absolute;
-  top: 135px;
-  
+  top: 135px; 
+  border: white 1px solid;
+  margin: auto;
   /* margin-left: 250px; */
 }
 
-.news-container img {
-  height: 100px;
+.news-container a{
+  text-decoration: none;
+  color: white;
+  display: flex;
   margin: 0 auto;
+  padding: 1.5rem;
 }
 
-.news-card {
-  padding-bottom: 1rem;
+
+.photo {
+  height: 20vh;
+  margin: 0 auto;
+  margin-right: 2rem;
 }
+
 
 
 
