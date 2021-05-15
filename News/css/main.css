@@ -53,10 +53,7 @@ body {
   background-color: #111;
 }
 
-html{
-  overflow:hidden;
 
-}
 
 .news-container {
   background-color: #111;
@@ -68,7 +65,7 @@ html{
   position: absolute;
 
   top: 135px; 
-  border: white 1px solid;
+  /* border: white 1px solid; */
   margin: auto;
   /* margin-left: 250px; */
 }
